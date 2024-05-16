@@ -71,7 +71,7 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new seovalidatorQueryOptions{
-  "url": "https://ebay.com"
+  url: "https://ebay.com"
 };
 ```
 
@@ -96,7 +96,7 @@ if(response.error != null) {
   "data": {
     "url": "https://ebay.com",
     "output": [
-      "There are 386 <a> tag without rel attribute.",
+      "There are 378 <a> tag without rel attribute.",
       "This HTML does not have <meta name=descriptions> in <head>",
       "This HTML does not have <meta name=keywords> in <head>"
     ],

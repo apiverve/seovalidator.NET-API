@@ -9,11 +9,14 @@ public class data
     [JsonProperty("url")]
     public string url { get; set; }
 
+    [JsonProperty("passed")]
+    public bool passed { get; set; }
+
+    [JsonProperty("entries")]
+    public int entries { get; set; }
+
     [JsonProperty("output")]
     public string[] output { get; set; }
-
-    [JsonProperty("seoPassed")]
-    public bool seoPassed { get; set; }
 
 }
 
